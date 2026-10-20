@@ -1,12 +1,12 @@
 app:
-  image: vprocontainers/vprofileapp
+  image: khwajamuzamil/vprofileapp
   tag: latest
   replicas: 1
   containerPort: 8080
   servicePort: 8080
 
 db:
-  image: vprocontainers/vprofiledb
+  image: khwajamuzamil/vprofiledb
   tag: latest
   replicas: 1
   containerPort: 3306
